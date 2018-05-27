@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="static/css/vis.min.js"></script>
+    <link href="static/css/vis.min.css" rel="stylesheet" type="text/css" />
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/117968/47031/5af3dca5f629d911a4b16b86.css' rel='stylesheet' type='text/css' />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>networkAligned</title>
+  </head>
+  <body>
+    <div id="app" style="width:100%"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<style>
+  body{
+    background-image: url("static/images/overlay.png"), url("static/images/star.jpg");
+    background-size: auto, cover;
+		background-position: top left, center 0;
+		background-attachment: fixed, fixed;
+		letter-spacing: 1px;
+		color: #3a3939;
+		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
+		-webkit-text-stroke: 0.25px;
+    margin: 0px;
+    background-color: #183026;
+  }
+  body.is-scroll {
+    background-attachment: scroll, scroll;
+    background-size: auto, 100% auto;
+  }
+
+  body.is-loading * {
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    animation: none !important;
+  }
+</style>
